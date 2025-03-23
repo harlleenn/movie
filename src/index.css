@@ -1,0 +1,74 @@
+.mainContainer{
+background-color: rgb(85, 195, 85);
+
+}
+.movieMania{
+    color: darkgray;
+    display: flex;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    padding: 10px;
+    background-color: azure;
+    border-radius: 20px;
+}
+.no-movie{
+    background-color: blanchedalmond;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px
+  
+}
+.overview{
+    background-color: purple;
+    color: black;
+}
+.results {
+    
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.movieCard{
+    background-color: black;
+   column-gap: 15px;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 300px));;
+   display: grid;
+   row-gap: 30px;
+}
+.title{
+    justify-content: center;
+    justify-content: flex-start;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+}
+
+
+.movieCardContainer:hover{
+    transform: scale(1.1);
+}
+.movieCardContainer{
+    transition:  transform 0.3s ease-in-out;
+}
+.movieImage{
+    width: 100%;
+    border-radius: 30px;
+
+}
+
+
+.searchBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
